@@ -1,0 +1,511 @@
+header {
+    background-color: #0c3c60;
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/fondo.gif);
+}
+.logo {
+    margin-left: 20px;
+}
+.menu {
+    color: white;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    margin-right: 40px;
+}
+.menu ol a {
+    display: block; 
+}
+.menu ol li a {
+    text-decoration: unset;
+    text-transform: unset;
+    color: white;
+    display: block;
+}
+.menu ol li {
+    list-style: none;
+    margin: 0px 20px;
+    position: relative;
+    float: left;
+}
+.desplegable {
+    height: 20px;
+}
+.menu ol li:hover {
+    cursor: pointer;
+}
+.menu ol li li a:hover {
+    cursor: pointer;
+}
+.menu ol ol {
+    display: none;
+    position: absolute;
+    left: 0;
+    background: #0c3c60;
+}
+.disci {
+    float: none;
+    padding: 15px 0px 15px 0px;
+    margin: 0px;
+}
+.menu ol ol a {
+    line-height: 120%;
+    padding: 10px 15px;
+}
+.menu ol li:hover ol {
+    display: flex;
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    justify-content: center;
+}
+.menu ol li:hover a {
+    display: flex;
+    position: relative;
+    margin: 0px;
+    padding: 0;
+}
+.responsive1, .responsive2 {
+    display: none;
+}
+.lider {
+    float: none;
+    padding: 25px 0px 15px 0px;
+    margin: 0px;
+}
+.heroImg img {
+    width: 100%;
+    box-shadow: 0px 0px 8px black;
+}
+.hero {
+    background-image: url(images/fondo.gif);
+    display: flex;
+    justify-content: space-around;
+}
+
+.iglesia {
+    display: flex;
+    padding: 20px;
+}
+.imgIglesia {
+    display: flex;
+    justify-content: center;
+}
+.imgIglesia img{
+    width: 80%;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 10px;
+}
+.descripIglesia {
+    align-self: center;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 10px;
+    background-color: #0c3c60;
+}
+.descripIglesia  h3{
+    text-align: center;
+    color: white;
+    font-weight: unset;
+}
+.descripIglesia p {
+    display: none;
+}
+.pastores {
+    display: flex;
+    padding: 20px;
+}
+.imgPastores {
+    display: flex;
+    justify-content: center;
+}
+.imgPastores img{
+    width: 83%;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 10px;
+}
+.descripPastores {
+    align-self: center;
+    width: 60%;
+    padding: 10px;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 10px;
+    background-color: #0c3c60;
+}
+.descripPastores  h3{
+    text-align: center;
+    color: white;
+    font-weight: unset;
+}
+.descripPastores p {
+    display: none;
+}
+.emisora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emisora h1 {
+    color: #0c3c60;
+}
+.banner {
+    width: 100%;
+}
+.bannerRespon {
+    display: none;
+}
+.videos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.predicas {
+    width: 560px;
+}
+.predicas iframe {
+    width: 560px;
+    height: 315px;
+}
+.parejas {
+    width: 560px;
+}
+.predicas iframe {
+    width: 560px;
+    height: 315px;
+}
+.predicas h2 {
+    text-align: center;
+    color: white;
+    background-color: #0c3c60;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px black;
+    margin: 20px;
+}
+.parejas h2 {
+    text-align: center;
+    color: white;
+    background-color: #0c3c60;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px black;
+    margin: 20px;
+}
+.parejas p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0c3c60;
+}
+.predicas {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0c3c60;
+}
+
+.mision {
+    width: 25%;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 20px;
+    color: white;
+    background-color: #0c3c60;
+    box-shadow: 0px 0px 8px black;
+    margin-top: 60px;
+    font-size: 20px
+}
+.vision {
+    width: 25%;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 20px;
+    color: white;
+    background-color: #0c3c60;
+    box-shadow: 0px 0px 8px black;
+    margin-top: 60px;
+    font-size: 20px
+}
+.hero h1 {
+    text-align: center;
+    font-weight: 500;
+}
+.hero p {
+    text-align: center;
+}
+.nosotros h1 {
+    text-align: center;
+    font-weight: 500;
+    margin: 0px;
+    margin: 26px;
+}
+.nosotros p {
+    padding: 0px 10px;
+}
+.nosotros {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 67%;
+    font-size: 20px;
+    color: white;
+    background-color: #0c3c60;
+    box-shadow: 0px 0px 8px black;
+    padding: 20px;
+}
+.fe {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+.fe h1 {
+    text-align: center;
+    font-weight: 500;
+    margin: 0px;
+    margin: 26px;
+}
+.fe p {
+    padding: 0px 10px;
+}
+.imgnosotros img { 
+    width: 100%;
+    box-shadow: 0px 0px 8px black;
+    background-image: url(images/fondo.gif);
+}
+.imgresponsive img {
+    width: 0;
+    height: 0;
+}
+.imgresponsive {
+    width: 0;
+    height: 0;
+}
+.imgHeroResponsive img {
+    width: 0;
+    height: 0;
+}
+.imgHeroResponsive {
+    width: 0;
+    height: 0;
+}
+.horarios {
+    text-align: center;
+    color: #0c3c60;
+}    
+.videoHorarios {
+    padding: 20px;
+}
+.videoHorarios iframe {
+    width: 100%;
+}
+
+.boxDescrip {
+    display: flex;
+    justify-content: center;
+}
+.boxTitle {
+    padding-top: 20px;
+}
+.boxTitle h1 {
+    text-align: center;
+    color: #0c3c60;
+    margin-bottom: 0;
+}
+.boxSubtitle {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    font-size: 55px;
+}
+.raya {
+    margin: 0px;
+}
+.descripLolita {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0c3c60;
+    padding: 20px;
+    width: 60%;
+    margin: 20px;
+}
+.donacion {
+    color: red;
+}
+.fotos {
+    display: flex;
+    padding: 30px;
+}
+.foto1 {
+    display: flex;
+    justify-content: center;
+}
+.foto2 {
+    display: flex;
+    justify-content: center;
+}
+.foto1 img {
+    width: 65%;
+}
+.foto2 img {
+    width: 65%;
+}
+.imgLolita img {
+    width: 100%;
+    box-shadow: 0px 0px 8px black;
+}
+.fotos2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.fotos2 img {
+    width: 68%;
+}
+.fotos3 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.fotos3 img {
+    width: 35%;
+}
+.fotos4 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.fotos4 img {
+    width: 68%;
+}
+.videoEscuela {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.descripLeccion {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0c3c60;
+    padding: 20px;
+    padding-top: 0px;
+}
+.descripLeccion a {
+    text-decoration: none;
+    background-color: #0c3c60;
+    border: #0c3c60;
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 8px black;
+
+}
+.descripLeccion p {
+    font-size: 30px;
+}
+.imgLider {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.imgLider img {
+    width: 75%;
+    box-shadow: 0px 0px 8px black;
+}
+.videoLider{ 
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.videoLider iframe {
+    width: 697px;
+    height: 392px;
+}
+.descripRedes {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0c3c60;
+    padding: 20px;
+    width: 60%;
+    font-size: x-large;
+}
+.titleRedes {
+    color: #0c3c60;
+    font-size: x-large;
+}
+.titleRedes h2 {
+    margin: 0px;
+}
+.f1 {
+    display: flex;
+    justify-content: center;
+}
+.fotosVentana2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.f2 img {
+    width: 510px;
+    height: 382px;
+}
+.f3 img {
+    width: 510px;
+    height: 382px;
+}
+.fotosVentana3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.f4 img {
+    width: 510px;
+    height: 382px;
+}
+.f5 img {
+    width: 510px;
+    height: 382px;
+}
+.f6 {
+    display: flex;
+    justify-content: center;
+    padding-bottom:40px ;
+}
+
+
+
+.footer {
+    background-color:#0c3c60;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.7;
+}
+.iconos {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.facebook {
+    width: 67px;
+    margin-top: 10px;
+}
+.youtube {
+    width: 80px;
+}
+.footer strong {
+    font-size: 20px;
+}
+.titleContact, .titleDireccion {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,314 @@
+@media screen and (max-width:480px) {
+    body header {
+        font-size: 0.98em;
+    }
+    body {
+
+    }
+    .header {
+        display: block;
+    }
+    .logoHeader { 
+        text-align: center;
+        padding: 10px;
+    }
+    .menu {
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+    .menu ol {
+        padding: 0px;
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+    .menu ol li {
+        margin: 15px 0px 0px 0px;
+    }
+    .logo {
+        margin: 0px;
+        width: 200px;
+    }
+    .hero {
+        display: inline-block;
+    }
+
+    .iglesia {
+        display: block;
+    }
+    .iglesia img {
+        width: 268px;
+        height: 201px;
+    }
+    .descripIglesia {
+        width: auto;
+        margin-top: 20px;
+    }
+    .descripIglesia h3 {
+        display: none;
+    }
+    .descripIglesia p {
+        display: block;
+        text-align: center;
+        color: white;
+        font-size: 0.98em;
+    }
+    .pastores {
+        display: block;
+    }
+    .pastores img {
+        width: 268px;
+        height: 146px;
+    }
+    .descripPastores {
+        width: auto;
+        margin-top: 20px;
+    }
+    .descripPastores h3 {
+        display: none;
+    }
+    .descripPastores p {
+        display: block;
+        text-align: center;
+        color: white;
+        font-size: 0.98em;
+    }
+    .banner {
+        display: none;
+    }
+    .bannerRespon {
+        display: block;
+    }
+    .bannerRespon img {
+        width: 100%;
+    }
+    .videos {
+        display: block;
+    }
+    .predicas, .parejas {
+        width: auto;
+        text-align: center;
+        font-size: 0.98em;
+    }
+    .parejas p {
+        font-size: 0.98em;
+    }
+
+    .predicas iframe {
+        width: 320px;
+        height: 214px;
+    }
+    .parejas iframe {
+        width: 320px;
+        height: 214px;
+    }
+
+
+
+    .mision, .vision, .container {
+        width: auto;
+        font-size: 0.98em;
+    }
+    .container {
+        padding: 20px;
+        padding-top: 10px;
+        margin: 20px;
+    }
+    .nosotros, .fe {
+        padding: 0;
+    }
+    .imgnosotros img {
+        width: 0;
+    }
+    .imgnosotros {
+        width: 0;
+        height: 0;
+    }
+    .imgresponsive {
+        background-image: url(images/fondo.gif);
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgresponsive  img{
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 8px black;
+    }
+    .heroImg img {
+        width: 0;
+    }
+    .heroImg {
+        width: 0;
+        height: 0;
+    }
+    .imgHeroResponsive {
+        width: 100%;
+        height: 100%;
+    }
+    .imgHeroResponsive img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 8px black;
+    }
+    .horarios {
+        font-size: 0.98em;
+    }
+    .videoHorarios iframe {
+        width: 320px;
+        height: 214px;
+    }
+    .imgLolita img {
+        width: 0;
+    }
+    .imgLolita {
+        width: 0;
+        height: 0;
+    }
+    .imgresponsive {
+        width: 100%;
+        height: 100%;
+    }
+    .imgresponsive img {
+        width: 100%;
+        height: 100%;
+        box-shadow: 0px 0px 8px black;
+    }
+    .title {
+        font-size: revert;
+    }
+    .raya {
+        font-size: medium;
+    }
+    .descripLolita {
+        font-size: 0.98em;
+    }
+    .descripRedes {
+        font-size: 0.98em;
+    }
+    .fotos {
+        display: contents;
+    }
+    .fotos img {
+        margin-bottom: 10px;
+    }
+    .foto1 img {
+        width: 208px;
+        height: 208px;
+    }
+    .fotos2 img {
+        width: 246px;
+        height: 138px;
+    }
+    .fotos3 img {
+        width: 197px;
+        height: 197px;
+    }
+    .fotos4 img {
+        width: 246px;
+        height: 138px;
+    }
+    .fotos, .fotos2, .fotos3, .fotos4 {
+        padding: 15px;
+    }
+    .videoEscuela iframe {
+        width: 380px;
+        height: 214px;
+    }
+
+    .footer {
+        display: block;
+    }
+    .iconos {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .contact, .direccion, .follow {
+        margin-bottom: 25px;
+    }
+    .menu ol li {
+        float: none;
+    }
+    .responsive1, .responsive2 {
+        display: block;
+        text-decoration: underline;
+    }
+    .menu ol li:hover a {
+        display: block;
+    }
+    .descripLeccion p {
+        font-size: 0.98em;
+    }
+    .descripLeccion a {
+        font-size: 0.98em;
+    }
+    .imgLider img {
+        width: 251px;
+        height: 141px;
+    }
+    .videoLider iframe {
+        width: 380px;
+        height: 214px;
+    }
+    .boxSubtitle h2 {
+        font-size: larger;
+    }
+    .f1, .f2, .f3, .f4, .f5, .f6 {
+        display: flex;
+        justify-content: center;
+    }
+    .fotosVentana2 {
+        display: block;
+        padding: 0px;
+    }
+    .fotosVentana3 {
+        display: block;
+        padding: 20px;
+}
+    .f1 img {
+        width: 300px;
+        height: 150px;
+
+    }
+    .f2 img {
+        width: 246px;
+        height: 184px;
+        padding-top: 20px;
+    }
+    .f3 img {
+        width: 246px;
+        height: 184px;
+        padding-top: 20px;
+    }
+    .f4 img {
+        width: 246px;
+        height: 184px;
+        padding-top: 20px;
+    }
+    .f5 img {
+        width: 246px;
+        height: 184px;
+        padding-top: 20px;
+    }
+    .f6 img {
+        width: 300px;
+        height: 168px;
+    }
+
+@media screen and (max-width:320px) {
+    .videoHorarios iframe {
+        width: 280px;
+        height: 157px;
+    }
+    .videoEscuela iframe {
+        width: 280px;
+        height: 157px;
+    }
+    .footer {
+        font-size: 0.98em;
+        text-decoration: none;
+        color: white;
+    }
+}
