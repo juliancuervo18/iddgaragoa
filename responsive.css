@@ -34,6 +34,15 @@
     .hero {
         display: inline-block;
     }
+    
+    .boxTitle img {
+        width: 90%;
+    }
+    
+    .emisora {
+        width: 100%;
+    }
+    
 
     .iglesia {
         display: block;
